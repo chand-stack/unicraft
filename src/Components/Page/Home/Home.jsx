@@ -1,4 +1,5 @@
 import Banner from "../../shared/Banner/Banner";
+import Faq from "../../shared/Faq/Faq";
 import Navbar from "../../shared/Navbar/Navbar";
 import Pricing from "../../shared/Pricing/Pricing";
 import RecentWork from "../../shared/RecentWork/RecentWork";
@@ -20,6 +21,7 @@ const Home = () => {
       <Work></Work>
       <Testimonial></Testimonial>
       <Pricing></Pricing>
+      <Faq></Faq>
     </div>
   );
 };
