@@ -1,6 +1,7 @@
 import Banner from "../../shared/Banner/Banner";
 import Navbar from "../../shared/Navbar/Navbar";
 import RecentWork from "../../shared/RecentWork/RecentWork";
+import Work from "../../shared/Work/Work";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
         <Banner></Banner>
       </div>
       <RecentWork></RecentWork>
+      <Work></Work>
     </div>
   );
 };
