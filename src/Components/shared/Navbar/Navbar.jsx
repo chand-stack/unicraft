@@ -1,22 +1,20 @@
-import { Link } from "react-router-dom";
-
 const Navbar = () => {
   const links = (
     <>
       <li className="font-medium text-lg text-[#374151]">
-        <Link>How it works</Link>
+        <a href="#how-it-works">How it works</a>
       </li>
       <li className="font-medium text-lg text-[#374151]">
-        <Link>Pricing</Link>
+        <a href="#pricing">Pricing</a>
       </li>
       <li className="font-medium text-lg text-[#374151]">
-        <Link>FAQ</Link>
+        <a href="#faq">FAQ</a>
       </li>
     </>
   );
   return (
     <div>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-none container mx-auto px-10">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -48,7 +46,9 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
         <div className="navbar-end">
-          <a className="btn btn-outline">Contact us</a>
+          <a href="#contact" className="btn btn-outline">
+            Contact us
+          </a>
         </div>
       </div>
     </div>

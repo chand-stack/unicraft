@@ -22,6 +22,12 @@ const RecentWork = () => {
         <div className="carousel-item">
           <img className="mx-3" src={img3} alt="work" />
         </div>
+        <div className="carousel-item">
+          <img className="mx-3" src={img2} alt="work" />
+        </div>
+        <div className="carousel-item">
+          <img className="mx-3" src={img1} alt="work" />
+        </div>
       </div>
       <div className="flex justify-center mb-16">
         <button className="btn btn-outline border border-[#4B5563] text-[#4B5563]">

@@ -4,7 +4,7 @@ import img3 from "../../../assets/Screenshot 2023-12-21 144905.png";
 import { TiArrowForwardOutline } from "react-icons/ti";
 const Work = () => {
   return (
-    <div className="container mx-auto my-24">
+    <section id="how-it-works" className="container mx-auto my-24">
       <div className="border shadow-xl rounded-xl mx-10 py-10 px-10">
         <h1 className="text-3xl md:text-5xl font-bold text-center">
           How it works
@@ -31,7 +31,7 @@ const Work = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

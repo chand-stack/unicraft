@@ -1,7 +1,17 @@
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
+import bg from "../../../assets/Gradient.png";
 const Pricing = () => {
   return (
-    <div className="mt-28 bg-gray-50">
+    <div
+      id="pricing"
+      className="mt-28 pb-10"
+      style={{
+        backgroundImage: `url(${bg})`,
+
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
       <h1 className="font-bold text-3xl pt-10 text-center md:text-5xl my-10">
         Pricing made for collaborative support.
       </h1>
@@ -12,7 +22,7 @@ const Pricing = () => {
       <div className="container mx-auto">
         <div className="flex flex-wrap items-center gap-1 lg:px-20 mt-12">
           {/* first card */}
-          <div className="card w-[378px] lg:w-96 group bg-base-100 hover:shadow-xl hover:bg-[#1F2937] hover:text-white hover:duration-500 mx-auto">
+          <div className="card w-[378px] lg:w-96 group bg-base-100 hover:shadow-xl hover:bg-[#1F2937] hover:text-white hover:duration-500 mx-auto border">
             <div className="card-body">
               <h2 className="card-title">Freebie</h2>
               <p>
@@ -72,7 +82,7 @@ const Pricing = () => {
           </div>
 
           {/* second card */}
-          <div className="card w-[378px] lg:w-96 group bg-base-100 hover:shadow-xl hover:bg-[#1F2937] hover:text-white hover:duration-500 mx-auto">
+          <div className="card w-[378px] lg:w-96 group bg-base-100 hover:shadow-xl hover:bg-[#1F2937] hover:text-white hover:duration-500 mx-auto border">
             <div className="card-body">
               <h2 className="card-title">Professional</h2>
               <p>
@@ -129,7 +139,7 @@ const Pricing = () => {
           </div>
 
           {/* third card */}
-          <div className="card w-[378px] lg:w-96 group bg-base-100 hover:shadow-xl hover:bg-[#1F2937] hover:text-white hover:duration-500 mx-auto">
+          <div className="card w-[378px] lg:w-96 group bg-base-100 hover:shadow-xl hover:bg-[#1F2937] hover:text-white hover:duration-500 mx-auto border">
             <div className="card-body">
               <h2 className="card-title">Enterprise</h2>
               <p>

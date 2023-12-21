@@ -1,6 +1,6 @@
 const Faq = () => {
   return (
-    <div className="bg-gray-50 pt-20">
+    <div id="faq" className=" mt-20">
       <h1 className="font-bold text-3xl text-center md:text-5xl">
         Frequently asked questions
       </h1>
@@ -9,7 +9,7 @@ const Faq = () => {
       </p>
       <div className="max-w-[768px] mx-auto mt-20 px-2 md:px-8 lg:px-0">
         <div className="collapse collapse-plus border-y">
-          <input type="radio" name="my-accordion-3" />
+          <input type="radio" name="my-accordion-3" checked="checked" />
           <div className="collapse-title text-xl font-medium">
             Is there a free trial available?
           </div>
@@ -22,7 +22,7 @@ const Faq = () => {
           </div>
         </div>
         <div className="collapse collapse-plus border-y">
-          <input type="radio" name="my-accordion-3" checked="checked" />
+          <input type="radio" name="my-accordion-3" />
           <div className="collapse-title text-xl font-medium">
             Can I change my plan later?
           </div>
