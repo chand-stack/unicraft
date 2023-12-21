@@ -1,5 +1,6 @@
 import Banner from "../../shared/Banner/Banner";
 import Navbar from "../../shared/Navbar/Navbar";
+import Pricing from "../../shared/Pricing/Pricing";
 import RecentWork from "../../shared/RecentWork/RecentWork";
 import Testimonial from "../../shared/Testimonial/Testimonial";
 import Work from "../../shared/Work/Work";
@@ -18,6 +19,7 @@ const Home = () => {
       <RecentWork></RecentWork>
       <Work></Work>
       <Testimonial></Testimonial>
+      <Pricing></Pricing>
     </div>
   );
 };
